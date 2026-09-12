@@ -1,0 +1,41 @@
+{
+  "name": "zakrivayuschiy-teg-f",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browserslist": [
+    "last 5 versions",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "scripts": {
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix",
+    "build": "gulp build",
+    "dev": "gulp",
+    "fixAndBuild": "npm run fixAll && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.5.5",
+    "browser-sync": "^3.0.4",
+    "cssnano": "^7.1.9",
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-replace": "^1.1.4",
+    "postcss": "^8.5.28",
+    "postcss-combine-media-query": "^2.1.0",
+    "prettier": "^3.9.6",
+    "stylelint": "^17.14.1"
+  }
+}

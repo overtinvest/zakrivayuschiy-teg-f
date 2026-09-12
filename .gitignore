@@ -1,0 +1,42 @@
+# Dependency directories (if using packages or Tailwind)
+node_modules/
+.pnp
+.pnp.js
+
+# CSS Preprocessors / Build tools outputs (Optional)
+# Only uncomment the line below if you generate your CSS from Sass/Less
+dist/
+.sass-cache/
+.stylelintcache
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets.txt
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+*.pyc
+__pycache__/
+
+package-lock.json
